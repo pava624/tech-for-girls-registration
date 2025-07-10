@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf1f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #e91e63;
+}
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  margin-top: 20px;
+  background-color: #e91e63;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.hidden {
+  display: none;
+}
+#shareCount {
+  margin-top: 10px;
+  font-weight: bold;
+}
